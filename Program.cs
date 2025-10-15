@@ -62,7 +62,20 @@ app.MapGet("/patients", async (ClinicDb db) =>
     }
     catch (Exception ex)
     {
-        return Results.Problem($"DbContext error: {ex.Message}");
+        return Results.Problem($"Error: {ex.Message}");
+    }
+});
+
+app.MapGet("/patients/{medRecordNo}", async (int medRecordNo, ClinicDb db) =>
+{
+    try
+    {
+        var patients = await db.Patients.FindAsync(medRecordNo);
+        return Results.Ok(patients);
+    }
+    catch (Exception ex)
+    {
+        return Results.Problem($"Error: {ex.Message}");
     }
 });
 
