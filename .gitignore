@@ -1,0 +1,43 @@
+# Build Folders
+bin/
+obj/
+
+# Visual Studio / Rider / VS Code
+.vs/
+*.user
+*.suo
+*.vscode/
+.idea/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Logs
+*.log
+
+# Runtime / temp files
+*.tmp
+*.temp
+*.bak
+
+# IIS / deployment files
+*.publishsettings
+*.pubxml
+*.publishproj
+
+# User secrets (never commit secrets!)
+appsettings.Development.json
+secrets.json
+
+# JetBrains Rider
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# EF Core migrations (optional)
+Migrations/

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("elekta-apidemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+723d8384247b73bed93b40cf6982475c2f12dc28")]
 [assembly: System.Reflection.AssemblyProductAttribute("elekta-apidemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("elekta-apidemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
